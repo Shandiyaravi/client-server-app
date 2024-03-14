@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrapper{
+background-color: #D05252; 
+ height:100vh;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+.container{
+  background-color: rgb(27, 27, 93);
+  padding:6rem 10rem;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1.5rem;
+}
+    
+
+  .subcontainer{
+    display: flex;
+    align-items: center;
+    gap:0.6rem;
+    width:100%;
+  }
+  
+  .subcontainer input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 8px;
+  
+    border: 0.5px solid #ccc;
+    border-radius: 4px;
+  }
+
+ 
+  
+  .container button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: bisque;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .container button:hover {
+    background-color: #D05252;
+  }
+  
+  .container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .container li {
+    display: flex;
+    gap:0.6rem;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .container li span {
+    flex-grow: 1;
+    border:1px solid white;
+    background-color: lightyellow;
+    padding:0.4rem;
+    border-radius: 10px;
+  }
+  
+  .container input[type="checkbox"] {
+   cursor: pointer;
+   
+ 
+  
+  }
+
+  .container input[type="checkbox"]:checked + span {
+    
+    text-decoration: line-through;
+   
+  }
+
+  .container input[type="checkbox"]:checked {
+    border-color: greenyellow; 
+    box-shadow: 0 0 0 3px greenyellow; 
+    
+
+  }
+  
