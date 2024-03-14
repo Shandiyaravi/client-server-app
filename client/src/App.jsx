@@ -1,6 +1,6 @@
 import Todo from './components/Todo/Todo';
-import Login from './components/Todo/Login';
-import Signup from './components/Todo/Signup';
+import Login from './components/Login/Login';
+import Signup from './components/Signup/Signup';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
